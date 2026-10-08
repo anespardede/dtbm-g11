@@ -2,6 +2,4 @@
 database management project - movies
 
 ERD:
-<img width="3463" height="1597" alt="Model databases" src="https://github.com/user-attachments/assets/74d08009-c645-4110-8c44-f3a045586372" />
-
-
+[movie_gr11_erd-2.pdf](https://github.com/user-attachments/files/33220376/movie_gr11_erd-2.pdf)
