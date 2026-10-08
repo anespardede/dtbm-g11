@@ -17,9 +17,9 @@ def get_connection():
     return conn
 
 def get_sq3_data(conn): 
-    """This returns one film per row with aggregated expert review measures, worldwide box office, grouping of columns like the overall averages and the linguisitic (LIWC) averages
-    Films without a worldwide box office and reviews with no text are excluded because LIWC values are placeholders hence the FILTERs. This is a subset of the entire film database (4,823 out of 11,364) due to the exlusion of missing data for the columns mentioned. 
-    avg_score_negative is NULL when a film has no review under 50."""
+    #This returns one film per row with aggregated expert review measures, worldwide box office, grouping of columns like the overall averages and the linguisitic (LIWC) averages
+    #Films without a worldwide box office and reviews with no text are excluded because LIWC values are placeholders hence the FILTERs. This is a subset of the entire film database (4,823 out of 11,364) due to the exlusion of missing data for the columns mentioned. 
+    #avg_score_negative is NULL when a film has no review under 50.
     df = pd.read_sql("""
     SELECT s.worldwide_box_office, 
     s.movie_id, 
